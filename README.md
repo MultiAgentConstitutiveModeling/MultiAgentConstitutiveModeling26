@@ -6,13 +6,14 @@ We introduce a multi-agent LLM-driven approach for constitutive model generation
 
 ## Repository structure
 
-.
-├── Artifacts/   # Generated models, validation results, chat logs, protocols
-└── Code/        # Python scripts implementing the Creator–Inspector pipeline
+.<br>
+├── Artifacts/   # Generated models, validation results, chat logs, protocols<br>
+└── Code/        # Python scripts implementing the Creator–Inspector pipeline<br>
 
 ### Code/
 
 Contains the full Python implementation of the Creator–Inspector pipeline, including the agentic loop, the numerical validators for the nine physical constraints, the training and evaluation routines, and the benchmark datasets. The system and user prompts used to instantiate the Creator and Inspector agents are defined in llm_prompts.py.
+
 ### Artifacts/
 
 Contains the outputs produced during our experiments, including the generated constitutive model implementations, validation results, full chat transcripts between the Creator and Inspector, and run protocols. The complete agent conversations can be inspected here, complementing the prompt definitions in the code.
@@ -25,15 +26,15 @@ The code was developed and tested with Python 3.12.7.
 
 If you use this code or build upon this work, please cite our manuscript:
 
-@article{tacke2026llm,
-  title   = {LLM-driven design of physics-constrained constitutive models: two agents are better than one},
-  author  = {Tacke, Marius and Busch, Matthias and Abdolazizi, Kian and Eichinger, Jonas and Linka, Kevin and Aydin, Roland and Cyron, Christian},
-  year    = {2026}
+@article{tacke2026llm,<br>
+  title   = {LLM-driven design of physics-constrained constitutive models: two agents are better than one},<br>
+  author  = {Tacke, Marius and Busch, Matthias and Abdolazizi, Kian and Eichinger, Jonas and Linka, Kevin and Aydin, Roland and Cyron, Christian},<br>
+  year    = {2026}<br>
 }
 
 ## Contact
 
 For questions regarding the code or the manuscript, please contact:
 
-Marius Tacke — marius.tacke@hereon.de
-Christian Cyron — christian.cyron@hereon.de
+Marius Tacke — marius.tacke@hereon.de<br>
+Christian Cyron — christian.cyron@hereon.de<br>
